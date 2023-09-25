@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Стань тестировщиком ПО за 4-5 месяцев!
+    "
+    />
+
+    <link rel="icon" href="img/logo-test.png" />
+    <link rel="apple-touch-icon" href="img/logo-test-180.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <!-- For Safari scroll-->
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="/js/script.js"></script>
+
+    <title>Ksendzov || QA Course</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="/img/logo-header.png" alt="Ksendzov QA Logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#prog">Программа</a></li>
+          <li><a href="#youtube">Cобеседования</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="nav-cta" href="#cta">Записаться на курс</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero-container">
+          <div class="hero-text-content">
+            <h1 class="heading-primary">
+              Курс тестирования ПО Вадима Ксендзова
+            </h1>
+            <p class="hero-desc">
+              Старт занятий 36-й группы в середине Июля. Группа набирается.
+              Тренировочные предстартовые занятия скоро начнутся.
+            </p>
+          </div>
+          <a class="btn btn-cta" href="#cta">Cтать тестировщиком</a>
+          <a class="btn btn-prog" href="#how">Что включает курс?</a>
+        </div>
+      </section>
+
+      <section class="section-how margin" id="how">
+        <div class="container">
+          <h2 class="heading-secondary">Что включает курс?</h2>
+          <div class="steps">
+            <div class="step">
+              <svg
+                class="how-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                  svg {
+                    fill: #f76707;
+                  }
+                </style>
+                <path
+                  d="M184 0c30.9 0 56 25.1 56 56V456c0 30.9-25.1 56-56 56c-28.9 0-52.7-21.9-55.7-50.1c-5.2 1.4-10.7 2.1-16.3 2.1c-35.3 0-64-28.7-64-64c0-7.4 1.3-14.6 3.6-21.2C21.4 367.4 0 338.2 0 304c0-31.9 18.7-59.5 45.8-72.3C37.1 220.8 32 207 32 192c0-30.7 21.6-56.3 50.4-62.6C80.8 123.9 80 118 80 112c0-29.9 20.6-55.1 48.3-62.1C131.3 21.9 155.1 0 184 0zM328 0c28.9 0 52.6 21.9 55.7 49.9c27.8 7 48.3 32.1 48.3 62.1c0 6-.8 11.9-2.4 17.4c28.8 6.2 50.4 31.9 50.4 62.6c0 15-5.1 28.8-13.8 39.7C493.3 244.5 512 272.1 512 304c0 34.2-21.4 63.4-51.6 74.8c2.3 6.6 3.6 13.8 3.6 21.2c0 35.3-28.7 64-64 64c-5.6 0-11.1-.7-16.3-2.1c-3 28.2-26.8 50.1-55.7 50.1c-30.9 0-56-25.1-56-56V56c0-30.9 25.1-56 56-56z"
+                />
+              </svg>
+              <h3 class="heading-tertiary">Учеба</h3>
+              <p class="step-desc">
+                4 или 5 месяца занятий (зависит от группы) <br />
+                Занятия курса 2 раза в неделю по 1 - 2 часа
+              </p>
+            </div>
+            <div class="step">
+              <svg
+                class="how-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                  svg {
+                    fill: #f76707;
+                  }
+                </style>
+                <path
+                  d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L477.4 348.9c1.7-9.4 2.6-19 2.6-28.9h64c17.7 0 32-14.3 32-32s-14.3-32-32-32H479.7c-1.1-14.1-5-27.5-11.1-39.5c.7-.6 1.4-1.2 2.1-1.9l64-64c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-64 64c-.7 .7-1.3 1.4-1.9 2.1C409.2 164.1 393.1 160 376 160H264c-8.3 0-16.3 1-24 2.8L38.8 5.1zM320 0c-53 0-96 43-96 96v3.6c0 15.7 12.7 28.4 28.4 28.4H387.6c15.7 0 28.4-12.7 28.4-28.4V96c0-53-43-96-96-96zM160.3 256H96c-17.7 0-32 14.3-32 32s14.3 32 32 32h64c0 24.6 5.5 47.8 15.4 68.6c-2.2 1.3-4.2 2.9-6 4.8l-64 64c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l63.1-63.1c24.5 21.8 55.8 36.2 90.3 39.6V335.5L166.7 227.3c-3.4 9-5.6 18.7-6.4 28.7zM336 479.2c36.6-3.6 69.7-19.6 94.8-43.8L336 360.7V479.2z"
+                />
+              </svg>
+              <h3 class="heading-tertiary">Практика</h3>
+              <p class="step-desc">
+                15 проектов коммерческой практики (каждый день)
+              </p>
+            </div>
+            <div class="step">
+              <svg
+                class="how-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                  svg {
+                    fill: #f76707;
+                  }
+                </style>
+                <path
+                  d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L512 316.8V128h-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48V352h28.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123zM16 128c-8.8 0-16 7.2-16 16V352c0 17.7 14.3 32 32 32H64c17.7 0 32-14.3 32-32V128H16zM48 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM544 128V352c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V144c0-8.8-7.2-16-16-16H544zm32 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z"
+                />
+              </svg>
+              <h3 class="heading-tertiary">Трудоустройство</h3>
+              <p class="step-desc">
+                Мы ищем вакансии в компаниях, договариваемся с HR и делаем отбор
+                падаванов на эти вакансии
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-prog margin" id="prog">
+        <h2 class="heading-secondary">Программа курса:</h2>
+        <div class="container accordion">
+          <div class="item">
+            <div class="item-header">
+              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="heading-tertiary">Теория тестирования</h3>
+            </div>
+            <ul class="hidden-box">
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>
+                  Базовая теория (Что такое тестирование, багрепорты,
+                  документация, виды, методы, направления тестирования и т.п.)
+                  SDLC, STLC.
+                </p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>
+                  Техники тест-дизайна (Классы эквивалентности, граничные
+                  значения, комбинаторные техники (Попарный, ортогональный,
+                  базовый выбор, каждый выбор), состояния и переходы)
+                </p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Методология разработки Scrum</p>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <div class="item-header">
+              <ion-icon name="swap-horizontal-outline"></ion-icon>
+              <h3 class="heading-tertiary">Клиент-серверная архитектура</h3>
+            </div>
+            <ul class="hidden-box">
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Клиент-серверная архитектура</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Структуры HTTP запросов и ответов</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Что такое JSON, XML. Их структура</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>HTTP Методы запросов на сервер</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Коды ответов HTTP сервера</p>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <div class="item-header">
+              <ion-icon name="construct-outline"></ion-icon>
+              <h3 class="heading-tertiary">Инструменты тестирования</h3>
+            </div>
+            <ul class="hidden-box">
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Тестирование API через Postman (JS, автотесты API)</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Снифинг http web трафика через Charles и Fiddler</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Dev Tools веб браузеров (Google Chrome, FireFox)</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Нагрузочное тестирование в Jmeter</p>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <div class="item-header">
+              <ion-icon name="id-card-outline"></ion-icon>
+              <h3 class="heading-tertiary">Мобильное тестирование</h3>
+            </div>
+            <ul class="hidden-box">
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Мобильное тестирование</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Особенность iOS, Android, гайдлайны</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>
+                  Сборка iOS приложений на XCode. (У кого нет Mac компьютера,
+                  просто посмотрят)
+                </p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Сборка Android приложений на Android Studio</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>ADB (управление андройд девайсами)</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Настройка прокси и vpn на iOS и Android</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>
+                  Перехват (сниффинг) мобильного трафика через Charles и Fiddler
+                  на iOS и Android
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <div class="item-header">
+              <ion-icon name="server-outline"></ion-icon>
+              <h3 class="heading-tertiary">Базы данных</h3>
+            </div>
+            <ul class="hidden-box">
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>
+                  Основы SQL (Create, Delete, Drop, Insert Into, Select, From,
+                  Where, Join).
+                </p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>
+                  База данных Postgres (установка, настройка и использование)
+                </p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>
+                  Нереляционная база данных Redis (установка, настройка и
+                  использование)
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <div class="item-header">
+              <ion-icon name="thumbs-up-outline"></ion-icon>
+              <h3 class="heading-tertiary">Бонус</h3>
+            </div>
+            <ul class="hidden-box">
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>
+                  Основы bash скриптинг, автоматизация рутинных задач на сервере
+                </p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>
+                  Командная строка (terminal) Linux (копирование, создание,
+                  просмотр, перемещение файлов на серверах без графического
+                  интерфейса)
+                </p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Доступ к удалённым серверам</p>
+              </li>
+
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>Снятие и чтение логов c внешнего сервера</p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>
+                  VPN. (Как работает, зачем нужен, как использовать, варианты
+                  инструментов)
+                </p>
+              </li>
+              <li>
+                <ion-icon name="remove-outline"></ion-icon>
+                <p>
+                  Python. (Изучение основ. Создание клиент серверного
+                  приложения)
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="cta">
+          <div class="price-card">
+            <p class="price">$195</p>
+            <ul class="feature">
+              <li>
+                <ion-icon name="checkbox-outline"></ion-icon>Интерактивные
+                вебинары
+              </li>
+              <li>
+                <ion-icon name="checkbox-outline"></ion-icon>Доступ к материалам
+                курса навсегда
+              </li>
+              <li>
+                <ion-icon name="checkbox-outline"></ion-icon>Реальные проекты
+              </li>
+              <li>
+                <ion-icon name="checkbox-outline"></ion-icon>Помощь с
+                трудоустройством
+              </li>
+            </ul>
+            <a class="btn btn-cta" href="https://t.me/peplomot"
+              >Записаться на курс</a
+            >
+          </div>
+          <div class="dt"></div>
+          <!-- <img class="img-cta" src="/img/cta-img.jpg" alt="Mini Dart Waider" /> -->
+        </div>
+      </section>
+
+      <section class="section-youtube margin" id="youtube">
+        <div class="continer youtube-content">
+          <h2 class="heading-secondary">Cобеседования каждую субботу</h2>
+          <iframe
+            class="youtube-video"
+            src="https://www.youtube.com/embed/A5WkAeb4DPQ?si=MZpsFeS3rQVi2sfE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="section-faq margin" id="faq">
+        <h2 class="heading-secondary">FAQ</h2>
+        <div class="container accordion">
+          <div class="item">
+            <div class="item-header">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="faq-icon"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                  svg {
+                    fill: #f76707;
+                  }
+                </style>
+                <path
+                  d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256-96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+                />
+              </svg>
+              <h3 class="heading-tertiary">Стоит ли идти на курс с нуля?</h3>
+            </div>
+            <p class="hidden-box">
+              Да. Будет не просто, всё зависит от твоей самодисциплины.
+            </p>
+          </div>
+          <div class="item">
+            <div class="item-header">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="faq-icon"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                  svg {
+                    fill: #f76707;
+                  }
+                </style>
+                <path
+                  d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256-96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+                />
+              </svg>
+              <h3 class="heading-tertiary">Будет ли запись занятий?</h3>
+            </div>
+            <p class="hidden-box">
+              Да. Все занятия веду в живую. Все занятия записываются. Можно
+              потом повторить материал или посмотреть в записи если не
+              получилось посетить занятие.
+            </p>
+          </div>
+          <div class="item">
+            <div class="item-header">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="faq-icon"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                  svg {
+                    fill: #f76707;
+                  }
+                </style>
+                <path
+                  d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256-96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+                />
+              </svg>
+              <h3 class="heading-tertiary">
+                На сколько даётся доступ к материалам курса?
+              </h3>
+            </div>
+            <p class="hidden-box">
+              Навсегда. Я не ограничиваю доступа к материалам курса, видео и
+              чатам.
+            </p>
+          </div>
+          <div class="item">
+            <div class="item-header">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="faq-icon"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                  svg {
+                    fill: #f76707;
+                  }
+                </style>
+                <path
+                  d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256-96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+                />
+              </svg>
+              <h3 class="heading-tertiary">
+                Если не получилось заниматься на курсе, можно ли продолжить с
+                другой группой?
+              </h3>
+            </div>
+            <p class="hidden-box">
+              Да. Можно. Перевожу в столько групп сколько надо. Можно бесконечно
+              заниматься. <br />
+              Перевод в другие группы бесплатно.
+            </p>
+          </div>
+          <div class="item">
+            <div class="item-header">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="faq-icon"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                  svg {
+                    fill: #f76707;
+                  }
+                </style>
+                <path
+                  d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256-96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+                />
+              </svg>
+              <h3 class="heading-tertiary">
+                Есть ли обратная связь и проверка домашних заданий?
+              </h3>
+            </div>
+            <p class="hidden-box">
+              Да. Обратной связи много от меня на занятиях и от менторов. <br />
+              Домашние задания проверяются менторами и мной. <br />
+              Так же есть отдельные занятия после каждой темы где проверяются ДЗ
+              и даётся много обратной связи.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="contact-us">
+          <div class="contact">
+            <div class="mail">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                />
+              </svg>
+              <p>
+                <a class="footer-link" href="mailto:ksendzov.com@gmail.com"
+                  >ksendzov.com@gmail.com</a
+                >
+              </p>
+            </div>
+            <div class="phone">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                />
+              </svg>
+              <p>
+                <a class="footer-link" href="tel:905316389047">+905316389047</a>
+              </p>
+            </div>
+          </div>
+          <div class="social">
+            <a href="https://www.facebook.com/vadim.ksendzov"
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                  svg {
+                    fill: #f76707;
+                  }
+                </style>
+                <path
+                  d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"
+                /></svg
+            ></a>
+            <a href="https://www.instagram.com/vadim_ksendzov/"
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"
+                /></svg
+            ></a>
+            <a href="https://www.linkedin.com/in/vadim-ksendzov-74099837/">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                />
+              </svg>
+            </a>
+            <a href="https://t.me/peplomot">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"
+                />
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/channel/UC6hNNlCXv1ZgdGpziNf83RA"
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                /></svg
+            ></a>
+          </div>
+        </div>
+        <div class="logo">
+          <a href="#"><img src="./img/logo-header.png" alt="logo footer" /></a>
+        </div>
+        <div class="footer-nav">
+          <ul class="main-nav-list">
+            <li><a href="#prog">Программа</a></li>
+            <li><a href="#youtube">Cобеседования</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a class="nav-cta" href="#cta">Записаться на курс</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
