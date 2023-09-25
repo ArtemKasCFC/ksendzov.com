@@ -97,7 +97,9 @@ a.nav-cta:active {
   justify-content: center;
   align-items: center;
   background-image: url("./../img/hero.jpg");
-  background-position: 100% 15%;
+  /* background-position: 100% 15%; */
+  background-position-x: center;
+  background-position-y: 5%;
   background-size: cover;
   height: 100vh;
 }
@@ -138,6 +140,8 @@ a.nav-cta:active {
 /*Steps*/
 .section-how {
   text-align: center;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .steps {

@@ -1,5 +1,5 @@
-/*1376px*/
-@media (max-width: 86em) {
+/*1392px*/
+@media (max-width: 87em) {
   html {
     font-size: 56.5%;
   }
@@ -119,6 +119,10 @@
 
 /*720px*/
 @media (max-width: 45em) {
+  .header {
+    padding: 0 3.2rem;
+  }
+
   .heading-primary {
     font-size: 3.6rem;
   }
@@ -161,6 +165,10 @@
 
 /*560px*/
 @media (max-width: 35em) {
+  .hero-text-content {
+    margin-top: 0;
+  }
+
   .heading-tertiary {
     font-size: 1.8rem;
   }
@@ -176,5 +184,13 @@
 
   .section-cta {
     grid-template-columns: 1fr;
+  }
+
+  .contact-us {
+    flex-direction: column;
+  }
+
+  footer .main-nav-list {
+    flex-direction: column;
   }
 }
