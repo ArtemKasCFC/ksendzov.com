@@ -64,6 +64,11 @@
   .section-hero {
     height: 80vh;
   }
+
+  .section-how {
+    margin-top: 0;
+  }
+
   .main-nav {
     position: absolute;
     top: 0;
